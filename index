@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="song-flex">
+        <div class="top-two">
+            <div><img src="https://i.ytimg.com/vi/Mv67cU6IP2o/maxresdefault.jpg" alt="Song 1" onclick="song1()"></div>
+            <div><img src="https://a10.gaanacdn.com/gn_img/albums/DwPKOBbqVZ/wPKOJgdkbq/size_xxl_1568384288.webp" alt="Song 2" onclick="song2()"></div>        
+        </div>
+        <div class="top-two">
+            <div><img src="https://www.lyricscraze.com/wp-content/uploads/2019/09/milo-na-tum.jpg" alt="Song 3" onclick="song3()"></div>    
+            <div><img src="https://a10.gaanacdn.com/gn_img/song/qa4WEqWP1p/4WER4eY5bP/size_xxl_1568165657.webp" alt="Song 4" onclick="song4()"></div>
+        </div>
+    </div>
+
+    <div id="music-flex">
+        <div id="music-block">
+            <div class="m-top">MUSIC PLAYER</div>
+
+            <div class="music-photo">
+                <div id="song1"><img src="https://i.ytimg.com/vi/Mv67cU6IP2o/maxresdefault.jpg" alt="Song 1"></div>
+                <div id="song2"><img src="https://a10.gaanacdn.com/gn_img/albums/DwPKOBbqVZ/wPKOJgdkbq/size_xxl_1568384288.webp" alt="Song 2"></div>
+                <div id="song3"><img src="https://www.lyricscraze.com/wp-content/uploads/2019/09/milo-na-tum.jpg" alt="Song 3"></div>
+                <div id="song4"><img src="https://a10.gaanacdn.com/gn_img/song/qa4WEqWP1p/4WER4eY5bP/size_xxl_1568165657.webp" alt="Song 4"></div>
+            </div>
+
+            <div id="button-flex1">
+                <img src="https://cdn.icon-icons.com/icons2/1496/PNG/512/mediaskipbackward_103389.png" class="prev" alt="Previous">
+                <audio src="https://dl.dropbox.com/s/tisxnhljh7hva8q/Ludo%20-%20Tony%20Kakkar%20ft.%20Young%20Desi.mp3?dl=0" controls id="audio1"></audio>    
+                <img src="https://cdn.icon-icons.com/icons2/1496/PNG/512/mediaskipforward_103395.png" class="next" alt="Next">
+            </div>
+
+            <div id="button-flex2">
+                <img src="https://cdn.icon-icons.com/icons2/1496/PNG/512/mediaskipbackward_103389.png" class="prev" alt="Previous">
+                <audio src="https://dl.dropbox.com/s/2079slbdhh5caxw/BIJLI%20KI%20TAAR%20Ft.Urvashi%20Rautela%20Tejas%20%26%20Ishpreet%20Dancefit%20Live.mp3?dl=0" controls id="audio2"></audio>    
+                <img src="https://cdn.icon-icons.com/icons2/1496/PNG/512/mediaskipforward_103395.png" class="next" alt="Next">
+            </div>
+
+            <div id="button-flex3">
+                <img src="https://cdn.icon-icons.com/icons2/1496/PNG/512/mediaskipbackward_103389.png" class="prev" alt="Previous">
+                <audio src="https://dl.dropbox.com/s/ojhbvf3t1u7mujm/Gajendra%20Verma%20-%20Milo%20Na%20Tum%20ft.%20Tina%20Ahuja%20-%20Official%20Music%20Video.mp3?dl=0" controls id="audio3"></audio>    
+                <img src="https://cdn.icon-icons.com/icons2/1496/PNG/512/mediaskipforward_103395.png" class="next" alt="Next">
+            </div>
+
+            <div id="button-flex4">
+                <img src="https://cdn.icon-icons.com/icons2/1496/PNG/512/mediaskipbackward_103389.png" class="prev" alt="Previous">
+                <audio src="https://dl.dropbox.com/s/d2rreqortc5p4pm/Ishq%20Tera%20Guru%20Randhawa%20Full%20Video%20Song%20Ishq%20Tera%20Ishq%20Mainu%20Son%20Na%20Deve%20New%20Songs%202019.mp3?dl=0" controls id="audio4"></audio>    
+                <img src="https://cdn.icon-icons.com/icons2/1496/PNG/512/mediaskipforward_103395.png" class="next" alt="Next">
+            </div>
+
+            <div id="m-bottom">
+                <img src="https://image.shutterstock.com/image-vector/return-arrow-go-back-icon-260nw-1671407857.jpg" alt="Back" onclick="back()">
+                <p id="music-title"></p>
+                <img src="https://cdn1.iconfinder.com/data/icons/line-music-ui/256/line_music_pink_icon_.Artboard_22-512.png" alt="Play" id="play">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
