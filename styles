@@ -1,0 +1,125 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+#song-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#song-flex > div {
+    margin-top: 17%;
+    padding: 5px;
+}
+
+#song-flex img {
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: transform .2s;
+    box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #ffffff;
+}
+
+#song-flex img:hover {
+    transform: scale(1.5);
+}
+
+#music-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+#music-block {
+    margin-top: 8%;
+    background-color: white;
+    height: 460px;
+    width: 305px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 50px #bebebe, -5px -5px 50px #bebebe;
+    display: flex;
+    flex-direction: column;
+}
+
+.m-top {
+    text-align: center;
+    margin: 10px;
+    color: white;
+    background-color: deeppink;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #fffdfc;
+}
+
+.music-photo img {
+    margin-top: 10px;
+    height: 235px;
+    width: 230px;
+    margin-left: 40px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #ffffff;
+}
+
+#button-flex1,
+#button-flex2,
+#button-flex3,
+#button-flex4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    display: none;
+}
+
+.prev, .next {
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #fffdfc;
+}
+
+.next {
+    margin-top: 3px;
+}
+
+audio {
+    height: 43px;
+    width: 176px;
+    margin-left: 11px;
+    background-color: white;
+    box-shadow: 5px 5px 5px #bebebe, -10px -10px 10px #fffdfc;
+    border-radius: 30px;
+    outline: none;
+}
+
+#m-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#m-bottom img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #ffffff;
+    border-radius: 50%;
+}
+
+#music-title {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: grey;
+}
