@@ -1,0 +1,36 @@
+function song1() {
+    document.getElementById("song-flex").style.display = "none";
+    document.getElementById("music-flex").style.display = "flex";
+    document.getElementById("button-flex1").style.display = "flex";
+    document.getElementById("music-title").innerText = "Ludo - Tony Kakkar";
+}
+
+function song2() {
+    document.getElementById("song-flex").style.display = "none";
+    document.getElementById("music-flex").style.display = "flex";
+    document.getElementById("button-flex2").style.display = "flex";
+    document.getElementById("music-title").innerText = "Bijli Ki Taar - Tony Kakkar";
+}
+
+function song3() {
+    document.getElementById("song-flex").style.display = "none";
+    document.getElementById("music-flex").style.display = "flex";
+    document.getElementById("button-flex3").style.display = "flex";
+    document.getElementById("music-title").innerText = "Milo Na Tum - Gajendra Verma";
+}
+
+function song4() {
+    document.getElementById("song-flex").style.display = "none";
+    document.getElementById("music-flex").style.display = "flex";
+    document.getElementById("button-flex4").style.display = "flex";
+    document.getElementById("music-title").innerText = "Ishq Tera - Guru Randhawa";
+}
+
+function back() {
+    document.getElementById("song-flex").style.display = "flex";
+    document.getElementById("music-flex").style.display = "none";
+    document.getElementById("button-flex1").style.display = "none";
+    document.getElementById("button-flex2").style.display = "none";
+    document.getElementById("button-flex3").style.display = "none";
+    document.getElementById("button-flex4").style.display = "none";
+}
